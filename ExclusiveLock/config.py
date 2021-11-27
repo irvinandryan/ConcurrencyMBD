@@ -6,4 +6,4 @@ for _ in range(10):
 #assume that the max number of query is 10
 queue = []
 for _ in range(10):
-    queue.append([])
+    queue.append([0])
