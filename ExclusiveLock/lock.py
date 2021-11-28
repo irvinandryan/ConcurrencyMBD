@@ -84,7 +84,7 @@ def execute():
                         command = queue[i][j]
                         obj = queue[i][j+1]
                         t = i + 1
-                        if queue[i][0] == 0:
+                        if queue[i][0] == 0 or queue[i][1] == 2:
                             if command == "read":
                                 read(obj, t)
                             elif command == "write":
